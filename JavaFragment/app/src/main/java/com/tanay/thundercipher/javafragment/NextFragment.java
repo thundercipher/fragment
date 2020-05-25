@@ -27,7 +27,7 @@ public class NextFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_next, container, false);
-        View view = inflater.inflate(R.layout.fragment_blank, container, false);
+        View view = inflater.inflate(R.layout.fragment_next, container, false);
         button2 = view.findViewById(R.id.button2);
 
         button2.setOnClickListener(new View.OnClickListener() {                         //as an alternative to providing an onClick method in the XML attributes
